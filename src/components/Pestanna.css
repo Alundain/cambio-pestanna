@@ -1,0 +1,27 @@
+.tabcontainer{
+    margin-top: 1rem;
+    padding: 2rem;
+    display:flex;
+    flex-direction: column;
+    width: 400px;
+    }
+.tabcontainer .titles a{
+    background-color: lavender;
+    padding: 1rem;
+    border: 2px solid lavender;
+    margin-right: 0.2rem;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.tabcontainer .titles a.active{
+    background-color: blueviolet;
+}
+
+.tabcontainer .content{
+    border: 2px solid lavender;
+    margin-top: 2rem;
+    border-radius: 10px;
+    width: 400px;
+    
+}
